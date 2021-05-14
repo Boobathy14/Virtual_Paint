@@ -3,7 +3,7 @@ import numpy as np
 
 cap=cv2.VideoCapture(0)
 
-colors=[[38,158,87,87,255,255],
+colors=[[22,129,72,89,255,255],
        [0,95,193,80,255,255]]
 
 pointcolor=[[15,190,5],
