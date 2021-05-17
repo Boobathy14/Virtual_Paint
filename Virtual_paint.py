@@ -3,11 +3,11 @@ import numpy as np
 
 cap=cv2.VideoCapture(0)
 
-colors=[[22,129,72,89,255,255],
-       [0,95,193,80,255,255]]
+colors=[[22,129,72,89,255,255], #green 
+       [0,95,193,80,255,255]]   #yellow
 
-pointcolor=[[15,190,5],
-            [5,250,236]]
+pointcolor=[[15,190,5],   #green
+            [5,250,236]]  #yellow
 
 drawpoint=[] #x,y,pointcolor
 
@@ -16,9 +16,10 @@ def color_Pick(img,colors,pointcolor):
     count =0
     newpoints = []
     for color in colors:
-        lower = np.array(color[0:3])
+        lower = np.array(color[0:3]) #slicing the values using index, first 3 index of color
         upper = np.array(color[3:6])
         mask = cv2.inRange(imgHSV, lower, upper)
+        #x,y are denote the position of the point, where to draw or paint.
         x, y = getcontours(mask)
         cv2.circle(testimg, (x, y), 12, pointcolor[count], cv2.FILLED)
         if x != 0 and y != 0:
@@ -37,6 +38,7 @@ def getcontours(mask):
             peri = cv2.arcLength(cont,True)
             approx = cv2.approxPolyDP(cont,0.02*peri,True)
             x, y, w, h = cv2.boundingRect(approx)
+            #cv2.imshow('Contours', testimg)
     return x+w//2,y #Used to mark the point at the top center
 
 def draw_it(drawpoint,pointcolor):
