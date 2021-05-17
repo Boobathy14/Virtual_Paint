@@ -14,9 +14,11 @@ To pre-process we need to tunning the image, we can do this by using another py 
 
 ## Get Contours:
 ### What is Contours?
-Contours can be explained simply as a curve joining all the continuous points, having same color or intensity.In OpenCV, finding contours is like finding white object from black background.
+Contours are curve joining all the continuous points, having same color or intensity.In simple way Here, in the below image you can able to see the blue color outline of (pen cap) that called contours.
+In OpenCV, finding contours is like finding white object from black background.
 
-![contours](https://user-images.githubusercontent.com/74816597/118249042-97e5b180-b4c2-11eb-9fac-ca289d1b0325.png)
+![image](https://user-images.githubusercontent.com/74816597/118523391-b5cd4380-b75a-11eb-9a74-0e00ae6f5848.png)
+
 
 ## Code Explanation
 ### Step 1: 
