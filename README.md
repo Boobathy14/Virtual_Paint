@@ -32,9 +32,12 @@ Once you satisfied with your preprocessing note that values. In main file you ne
 
 ![TRACKBARS](https://user-images.githubusercontent.com/74816597/118252364-4dfeca80-b4c6-11eb-8ee9-f052fc598749.png)
 
-![image](https://user-images.githubusercontent.com/74816597/118530214-072d0100-b762-11eb-8bad-85f206a3918c.png)
-
 
 ![image](https://user-images.githubusercontent.com/74816597/118529386-16f81580-b761-11eb-9a4a-f6270b10952e.png)
 
 next, all these value has to send as numpy array to a list, where these values are used to find the mask of the image. 
+
+### what is mask?
+mask are nothing but the thing you need in a image will be white others will be in black.
+
+![image](https://user-images.githubusercontent.com/74816597/118530214-072d0100-b762-11eb-8bad-85f206a3918c.png)
