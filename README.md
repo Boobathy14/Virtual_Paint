@@ -59,4 +59,14 @@ call all the function in while loop, because as video is a combination of multip
 
 ### Video clip:
 
+## Final Output:
+https://drive.google.com/file/d/1Emen1N378KWXw9k0Co4qC4nZT6nl0nKM/view?usp=sharing
+
+https://user-images.githubusercontent.com/74816597/118668503-8ed24880-b812-11eb-8a8f-a67fbf5d2a2c.mp4
+
+
+
+
+
+
 
